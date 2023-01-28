@@ -1,26 +1,76 @@
-=================
-My Project Readme
-=================
--------------------------
-Clever subtitle goes here
--------------------------
+Kimya Documentation
+===================
 
 Introduction
-============
+------------
 
-This is an example reStructuredText document that starts at the very top
-with a title and a sub-title. There is one primary header, Introduction.
-There is one example subheading below.
-The document is just plain text so it is easily readable even before
-being converted to HTML, man page, PDF or other formats.
+Kimya is a Simple-to-Use Module with Functions About Science. (Generally Chemistry)
 
-Subheading
-----------
+Setup
+-----
 
-The basic syntax is not that different from Markdown, but it also
-has many more powerful features that Markdown doesn't have. We aren't
-taking advantage of those yet though.
+Setup is very easy just type ``pip install kimya`` in your terminal
 
-- Bullet points
-- Are intuitive
-- And simple too
+showpHScale Function
+====================
+| ``kimya.showpHScale()``
+|
+| *shows the pH Scale with colors.*
+
+pH Function
+===========
+| ``kimya.pH(value) # value is int or float.``
+|
+| *checks whether the value is alkaline or acidic.*
+
+calcPressure Function
+=====================
+| ``kimya.calcPressure(force, area) # force and area is int or float``
+|
+| *calculates the pressure according to the entered values.*
+
+CtoF Function
+=============
+| ``kimya.CtoF(celsius) # celsius is int or float``
+|
+| *converts the entered celcius value to fahrenheit.*
+
+FtoC Function
+=============
+| ``kimya.FtoC(fahrenheit) # fahrenheit is int or float``
+|
+| *converts the entered fahrenheit value to celsius.*
+
+getElement Function
+===================
+| ``kimya.getElement(atomicNumber, property) # atomicNumber is int, properity is string.``
+|
+| *returns data from the internet according to the entered atomic number and specified property.*
+|
+| **Property Parameter:**
+``atomicmass``
+``atomicradius``
+``boilingpoint``
+``bondingtype``
+``density``
+``electronaffinity``
+``electronegativity``
+``electronicconfiguration``
+``groupblock``
+``ionradius``
+``ionizationenergy``
+``meltingpoint``
+``name``
+``oxidationstates``
+``standardstate``
+``symbol``
+``vanderwaalsradius``
+``yeardiscovered``
+
+
+
+
+
+
+
+
