@@ -33,7 +33,7 @@ CtoF Function
 =============
 | ``kimya.CtoF(celsius) # celsius is int or float``
 |
-| *converts the entered celcius value to fahrenheit.*
+| *converts the entered celsius value to fahrenheit.*
 
 FtoC Function
 =============
